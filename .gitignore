@@ -2,8 +2,4 @@
 
 dist/
 .idea
-
-
-dist/
-
-dist/
+node_modules
