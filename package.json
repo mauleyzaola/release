@@ -1,0 +1,31 @@
+{
+  "name": "@mauleyzaola/release",
+  "version": "1.0.0",
+  "description": "A cli for everyone",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node postinstall.js install",
+    "preuninstall": "node postinstall.js uninstall"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauleyzaola/release.git"
+  },
+  "author": "Mauricio Leyzaola",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/example/example-cli/issues"
+  },
+  "goBinary": {
+    "name": "release",
+    "path": "./bin"
+  },
+  "homepage": "https://github.com/mauleyzaola/release#readme",
+  "files": [
+    "dist",
+    "postinstall.js"
+  ],
+  "dependencies": {
+    "mkdirp": "^1.0.4"
+  }
+}
